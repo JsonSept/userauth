@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file here -->
+</head>
+
+<body>
+    <div class="container">
+        <form method="post"> <!-- Specify your server-side script for processing -->
+            <h2>Login</h2>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter email" name="email" required><br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+            <button type="submit">Login</button><br>
+            <p>Don't have an account ?</p><a href="register">Register</a>
+        </form>
+    </div>
+
+    <!-- <% if (messages.error) { %>
+        <div class="alert">
+            <strong>Error</strong>
+        </div>
+    <% }%> -->
+</body>
+
+</html>
